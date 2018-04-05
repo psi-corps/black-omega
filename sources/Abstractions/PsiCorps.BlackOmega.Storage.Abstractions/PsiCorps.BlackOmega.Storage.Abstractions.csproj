@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>PsiCorps.BlackOmega.Storage</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DependencyInjection\PsiCorps.BlackOmega.DependencyInjection\PsiCorps.BlackOmega.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\PsiCorps.BlackOmega.Storage\PsiCorps.BlackOmega.Storage.csproj" />
+    <ProjectReference Include="..\Psi.Corps.BlackOmega.Modularity\PsiCorps.BlackOmega.DependencyInjection.Autofac.csproj" />
+    <ProjectReference Include="..\PsiCorps.BlackOmega.Query\PsiCorps.BlackOmega.Query.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\Remove\" />
+    <Folder Include="Abstractions\Update\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0-preview1-final" />
+  </ItemGroup>
+
+</Project>
