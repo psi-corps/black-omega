@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>BlackOmega.Querying</AssemblyName>
+    <RootNamespace>BlackOmega.Querying</RootNamespace>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackOmega.Common\BlackOmega.Common.csproj" />
+  </ItemGroup>
+</Project>

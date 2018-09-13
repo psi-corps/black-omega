@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>7.2</LangVersion>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackOmega.ExceptionHandling\BlackOmega.ExceptionHandling.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering.Notifications\BlackOmega.Ordering.Notifications.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering\BlackOmega.Ordering.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+  </ItemGroup>
+</Project>

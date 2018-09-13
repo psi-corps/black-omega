@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackOmega.Integration.AspNetCore\BlackOmega.Integration.AspNetCore.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering.Storage\BlackOmega.Ordering.Storage.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering\BlackOmega.Ordering.csproj" />
+  </ItemGroup>
+</Project>

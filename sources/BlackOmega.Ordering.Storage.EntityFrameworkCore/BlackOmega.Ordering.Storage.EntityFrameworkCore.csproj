@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackOmega.Ordering.EntityFrameworkCore\BlackOmega.Ordering.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering.Storage\BlackOmega.Ordering.Storage.csproj" />
+  </ItemGroup>
+</Project>

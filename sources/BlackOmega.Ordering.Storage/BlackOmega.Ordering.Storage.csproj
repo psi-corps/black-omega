@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;net46;net461;net462;net47;net471</TargetFrameworks>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackOmega.Common\BlackOmega.Common.csproj" />
+    <ProjectReference Include="..\BlackOmega.ExceptionHandling\BlackOmega.ExceptionHandling.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering.Notifications\BlackOmega.Ordering.Notifications.csproj" />
+    <ProjectReference Include="..\BlackOmega.Ordering\BlackOmega.Ordering.csproj" />
+  </ItemGroup>
+</Project>
